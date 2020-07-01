@@ -10,9 +10,6 @@ Spring Security提供了完整的安全性解决方案，它能够在Web请求�
 
 # Start
 
-参考代码：D:\Idea\springboot-06-security
-
-
 
 little tip
 
@@ -20,7 +17,7 @@ little tip
 
 之前：
 
-![1593501824852](C:\Users\Mike-laptop\AppData\Roaming\Typora\typora-user-images\1593501824852.png)
+![pic1](https://github.com/FanZejie/springboot-security/tree/master/pictureForReadme/pic1.png)
 
 现在：
 
@@ -194,7 +191,7 @@ withUser()返回的式UserDetailsManagerConfigurer.UserDetailsBuilder,这个对�
 
 表单里的name分别为username和password是默认的
 
-![formLoginConfig.java](C:\Users\Mike-laptop\AppData\Roaming\Typora\typora-user-images\1593562387116.png)
+![pic1](https://github.com/FanZejie/springboot-security/tree/master/pictureForReadme/pic2.png)
 
 表单提交的地址要跟formLogin()指定的地址保持一致，默认是/login
 
